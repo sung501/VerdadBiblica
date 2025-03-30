@@ -3874,7 +3874,8 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("/images/Pic/mainBG.jpg");
+		/* background-image: url("images/intro.svg"); */
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3889,7 +3890,6 @@ input, select, textarea {
 				#intro p br {
 					display: none;
 				}
-
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3897,7 +3897,6 @@ input, select, textarea {
 				#intro p {
 					font-size: 1em;
 				}
-
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3905,5 +3904,63 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
-
+			.mainP {
+				font-size: 9vw;
+			}
+			.mainText {
+				font-size: 4vw;
+			}
 		}
+
+		@media (min-width: 1280px) {
+			.mainP {
+				font-size: 6vw;
+			}
+			.mainText {
+				font-size: 2vw;
+			}
+		  }
+
+
+	/* .mainPage {
+		background-image: url(/images/Pic/mainBG.jpg);
+		background-size: cover;
+	} */
+
+	.mainText {
+		text-align: center;
+		font-family: 'Noto Serif';
+		font-weight: 500;
+		color: #ffffff;
+		text-shadow: 
+			-2px -2px 0 #38b6ff, 
+			2px -2px 0 #38b6ff, 
+			-2px 2px 0 #38b6ff, 
+			2px 2px 0 #38b6ff,
+			0 0 5px #38b6ff;
+		background-color: transparent;
+		/* text-align: center;
+		font-size: 2rem	;
+		-webkit-text-stroke: 0.1px #38b6ff;
+		font-family: Noto Serif;
+		font-weight: bold;
+		color: #ffffff;
+		font-weight: bolder !important; */
+	}
+	.mainP {
+		text-align: center;
+		font-family: 'Barlow';
+		font-weight: bold;
+		color: #ffffff;
+		text-shadow: 
+			-2px -2px 0 #004aad, 
+			2px -2px 0 #004aad, 
+			-2px 2px 0 #004aad, 
+			2px 2px 0 #004aad,
+			0 0 5px #004aad;
+		background-color: transparent;
+	}
+
+	.ptpb-10rem {
+		padding: 10rem 0 10rem 0 !important;
+	}
