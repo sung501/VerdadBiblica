@@ -22,7 +22,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -3263,6 +3264,11 @@ input, select, textarea {
 			background-color: #953d75;
 		}
 
+		.wrapper.style4-alt {
+			background-color: #002F69;
+
+		}
+
 		.wrapper.fullscreen {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3890,12 +3896,31 @@ input, select, textarea {
 				#intro p br {
 					display: none;
 				}
+
+				.introduccion {
+					font-size: 20px;
+				}
+				.descripcion {
+					font-size: 20px;
+				}
+				.intro_btn {
+					font-size: 20px;
+				}
 			}
 
 			@media screen and (max-width: 736px) {
 
 				#intro p {
 					font-size: 1em;
+				}
+				.introduccion {
+					font-size: 20px;
+				}
+				.descripcion {
+					font-size: 20px;
+				}
+				.intro_btn {
+					font-size: 20px;
 				}
 			}
 
@@ -3910,6 +3935,17 @@ input, select, textarea {
 			.mainText {
 				font-size: 4vw;
 			}
+			.introduccion {
+				font-size: 3vw;
+				padding: 10px;
+			}
+			.descripcion {
+				font-size: 3vw;
+				padding: 10px;
+			}
+			.intro_btn {
+				font-size: 1vw;
+			}
 		}
 
 		@media (min-width: 1280px) {
@@ -3918,6 +3954,19 @@ input, select, textarea {
 			}
 			.mainText {
 				font-size: 2vw;
+			}
+			.introduccion {
+				font-size: 50px;
+				padding-top: 30px;
+				padding-left: 50px;
+			}
+			.descripcion {
+				font-size: 50px;
+				padding-left: 50px;
+				padding-right: 50px;
+			}
+			.intro_btn {
+				font-size: 24px;
 			}
 		  }
 
@@ -3964,3 +4013,53 @@ input, select, textarea {
 	.ptpb-10rem {
 		padding: 10rem 0 10rem 0 !important;
 	}
+
+	.d-flex {
+		display: flex;
+	}
+	.flex-column {
+		flex-direction: column;
+	}
+	.justify-content-end {
+		justify-content: end;
+	}
+
+	.introduccion {
+		font-family: Lato;
+		font-weight: bold;
+		color: white;
+	}
+	
+	.descripcion {
+		font-family: Lato;
+		font-weight: bold;
+		line-height: 1.5;
+		color: white;
+		margin: auto;
+	}
+	
+	.intro_btn {
+		font-family: Lato;
+		font-weight: bold;
+		color: white;
+		background-color: #FFD700;
+		border-radius: 20px;
+		text-align: center;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+
+	.p-0 {
+		padding : 0 0 0 0 !important;
+	}
+
+	.w-100 {
+		width: 100% !important;
+	}
+
+	.m-auto {
+		margin: auto !important;
+	}
+
+
+	
