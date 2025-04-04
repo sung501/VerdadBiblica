@@ -3940,7 +3940,7 @@ input, select, textarea {
 				padding: 10px;
 			}
 			.descripcion {
-				font-size: 3vw;
+				font-size: 4vw;
 				padding: 10px;
 			}
 			.intro_btn {
@@ -4014,14 +4014,21 @@ input, select, textarea {
 		padding: 10rem 0 10rem 0 !important;
 	}
 
+	/* flex */
 	.d-flex {
 		display: flex;
 	}
 	.flex-column {
 		flex-direction: column;
 	}
+	.flex-row {
+		flex-direction: row;
+	}
 	.justify-content-end {
 		justify-content: end;
+	}
+	.justify-content-around {
+		justify-content: space-around;
 	}
 
 	.introduccion {
@@ -4060,6 +4067,7 @@ input, select, textarea {
 	.m-auto {
 		margin: auto !important;
 	}
+
 
 
 	
